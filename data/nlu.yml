@@ -1,0 +1,261 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon- there?
+    - .
+    - hey hi
+    - hii
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - exit
+    - going off
+    - you may leave now
+    - bbye
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - y
+    - that sounds good
+    - correct
+    - right
+    - fine
+    - ok
+    - okay
+    - sure
+    - alright
+    - k
+    - it's ok
+    - it's okay
+    - ofcourse
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - nothing
+    - don't
+    - do not
+    - dont
+    - please no
+    - no please
+    - don't do that
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: corona_intro
+  examples: |
+    - what is corona virus
+    - what is covid
+    - what is novel corona virus
+    - what is covid-19
+    - tell me about corona
+    - can you tell me about covid
+    - what is corona?
+    - what is covid virus?
+
+- intent: corona_spread
+  examples: |
+    - how does corona virus spread
+    - how does the virus spread
+    - how do covid spread?
+    - can covid spread?
+    - can virus spread?
+    - can virus spread through air?
+    - can covid spread through air?
+    - can covid spread through water?
+
+- intent: corona_food_spread
+  examples: |
+    - does corona spread from food
+    - how will corona spread from food
+    - can covid spread through food?
+
+- intent: grateful
+  examples: |
+    - thank you
+    - thanks
+    - that's great
+    - nice
+    - thank u
+    - thank you so much
+    - thanks bot
+    - oh thanks!
+    - cheers
+
+- intent: warm_weather
+  examples: |
+    - will warm weather stop the spread
+    - will it stop with warm weather
+
+- intent: high_risk
+  examples: |
+    - who is at higher risk of infection
+    - most risk group
+
+- intent: timeline
+  examples: |
+    - first wave
+    - third wave
+    - second wave
+    - covid wave
+
+- intent: herd_immunity
+  examples: |
+    - what is herd immunity?
+    - what is community spread?
+
+- intent: prevention
+  examples: |
+    - how can i prevent from getting infected?
+    - how do we prevent covid?
+    - how do i protect myself?
+    - how to save myself?
+
+- intent: protection
+  examples: |
+    - should i use soap or water?
+    - can sanitizer protect me?
+    - is sanitizing once enough?
+
+- intent: mask
+  examples: |
+    - why do we need to wear mask?
+    - is mask helpful?
+    - does masks help?
+    - i dont want to wear a mask
+    - what is the use of mask
+
+- intent: symptoms
+  examples: |
+    - what are the symptoms?
+    - how to identify covid disease?
+    - how will i know if i have covid
+    - what are the signs?
+
+- intent: recommendation
+  examples: |
+    - what if i have covid symptoms?
+    - i feel sick
+    - i have cough
+    - i have covid
+    - i am infected with covid
+    - i have fever
+    - i am coughing but i have no fever
+
+- intent: vaccination
+  examples: |
+    - are both the doses necessary
+    - what is covid vaccine?
+    - which vaccine should i get
+    - are vaccines safe
+    - what is the cost of vaccine
+    - is vaccine helpful
+
+- intent: lockdown
+  examples: |
+    - what is lockdown?
+    - what are the lockdown guidelines?
+    - will there be a lockdown
+
+- intent: cowin
+  examples: |
+    - where can i book my vaccine appointment
+    - where can i download covid certificate
+    - how to download covid certificate
+    - where can i book vaccine
+    - i need vaccine
+
+- intent: variants
+  examples: |
+    - what are the types of covid
+    - what is omicron virus
+    - what is delta virus
+    - what are the variants
+    - how many types of corona virus
+
+- intent: test
+  examples: |
+    - how can i test if i have virus
+    - what is rtpcr
+    - what is covid test
+    - how can i take covid test
+    - is covid test free
+
+- intent: travel
+  examples: |
+    - can i travel to another country
+    - what are the restrictions for travel
+    - can i go on trip
+    - where can i travels
+

@@ -1,0 +1,121 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - corona_intro
+  - corona_spread
+  - corona_food_spread
+  - grateful
+  - warm_weather
+  - high_risk
+  - timeline
+  - herd_immunity
+  - prevention
+  - protection
+  - mask
+  - symptoms
+  - recommendation
+  - vaccination
+  - lockdown
+  - cowin
+  - variants
+  - test
+  - travel
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a covid query bot, powered by Rasa."
+
+  utter_corona_intro:
+  - text: "It is the largest category for an RNA virus. In most cases, it is difficult to detect if coronavirus or a different cold-causing virus is causing you fever."
+
+  utter_corona_spread:
+  - text: "This is the most common transmission. When an infected person coughs, sneezes, or talks,droplets or tiny particles called aerosols carry the virus into the air from their nose or mouth" 
+
+  utter_corona_food_spread:
+  - text: "There is currently no evidence that people can catch COVID-19 from food. The virus that causes COVID-19 can be killed at temperatures similar to that of other known viruses and bacteria found in food."
+
+  utter_lockdown:
+  - text: "No Lockdown!"
+
+  utter_warm_weather:
+  - text: "Coronaviruses die very quickly when exposed to the UV light in sunlight. Like other enveloped viruses, SARS-CoV-2 survives longest when the temperature is at room temperature or lower, and when the relative humidity is low (<50%)."
+
+  utter_high_risk:
+  - text: "Similar to adults, children with obesity,diabetes, asthma or chronic lung disease, sickle cell disease, or immunosuppression can also be at increased risk for severe illness from COVID-19."
+
+  utter_timeline:
+  - text: ""
+
+  utter_herd_immunity:
+  - text: "resistance to the spread of an infectious disease within a population that is based on pre-existing immunity of a high proportion of individuals as a result of previous infection or vaccination."
+
+  utter_prevention:
+  - text: "Avoid physical contact like handshakes, hand holding or hugs. Avoid touching surfaces such as table tops, chairs, door handles etc. b)Practice good hygiene Wash your hands frequently using soap and water- After coming home from outside or meeting other people especially if they are ill."
+
+  utter_protection:
+  - text: "Immediately wash your hands with soap and water for at least 20 seconds."
+
+  utter_mask:
+  - text: "Face masks can help slow the spread of coronavirus disease"
+
+  utter_symptoms:
+  - text: "fever,cough,tiredness,loss of taste or smell"
+    
+  utter_recommendation:
+  - text: "1.Get Covid test, 2.Isolate yourselves."
+    
+  utter_vaccination:
+  - text: "COVID-19 vaccines are safe and effective. You may have side effects after vaccination, but these are normal. It typically takes two weeks after you are fully vaccinated for the body to build protection (immunity) against the virus that causes COVID-19. If you are not vaccinated, find a vaccine on CoWIN app."
+    
+  utter_cowin:
+  - text: "Get Vaccinated in 3 Easy Steps : 1-> Book an Appointment on Co-WIN or Walk into any Vaccination Center. https://www.cowin.gov.in/ 2-> Get Your Vaccination Safely at the Time of Your Appointment  3-> Download Your Vaccination Certificate from Co-WIN and Wait for Dose #2"
+    
+  utter_variants:
+  - text: "There are total 5 Variants as of now. 1-Alpha 2-Beta 3-Gamma 4-Delta 5-Omicron*"
+    
+  utter_test:
+  - text: "RT PCR is a free covid test in public hospitals. It can also be taken in private labs with different prices. It can detect presence of covid virus with a great accuracy. Visit your nearest covid test centre for covid test."
+    
+  utter_travel:
+  - text: "Delay travel until you are fully vaccinated. Check your destination's COVID-19 situation before traveling. State, local, and territorial governments may have travel restrictions in place. Wearing a mask over your nose and mouth is required in indoor areas of public transportation (including airplanes) and indoors in U.S. transportation hubs (including airports). Do not travel if you have been exposed to COVID-19, you are sick, or if you test positive for COVID-19. If you are not fully vaccinated and must travel, get tested both before and after your trip."
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

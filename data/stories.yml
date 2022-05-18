@@ -1,0 +1,122 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: corona intro
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: corona_intro
+  - action: utter_corona_intro
+
+- story: lockdown
+  steps:
+  - intent: lockdown
+  - action: utter_lockdown
+
+- story: spread
+  steps:
+  - intent: corona_spread
+  - action: utter_corona_spread
+
+- story: food
+  steps:
+  - intent: corona_food_spread
+  - action: utter_corona_food_spread
+
+- story: weather
+  steps:
+  - intent: warm_weather
+  - action: utter_warm_weather
+
+- story: risk
+  steps:
+  - intent: high_risk
+  - action: utter_high_risk
+
+- story: timeline
+  steps:
+  - intent: timeline
+  - action: utter_timeline
+
+- story: herd immunity
+  steps:
+  - intent: herd_immunity
+  - action: utter_herd_immunity
+
+- story: prevention
+  steps:
+  - intent: prevention
+  - action: utter_prevention
+
+- story: protection
+  steps:
+  - intent: protection
+  - action: utter_protection
+
+- story: mask
+  steps:
+  - intent: mask
+  - action: utter_mask
+
+- story: symptoms
+  steps:
+  - intent: symptoms
+  - action: utter_symptoms
+
+- story: recommendation
+  steps:
+  - intent: recommendation
+  - action: utter_recommendation
+
+- story: vaccination
+  steps:
+  - intent: vaccination
+  - action: utter_vaccination
+
+- story: cowin
+  steps:
+  - intent: cowin
+  - action: utter_cowin
+
+- story: variants
+  steps:
+  - intent: variants
+  - action: utter_variants
+  
+- story: test
+  steps:
+  - intent: test
+  - action: utter_test
+
+- story: travel
+  steps:
+  - intent: travel
+  - action: utter_travel
